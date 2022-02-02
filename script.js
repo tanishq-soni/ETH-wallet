@@ -1,9 +1,6 @@
 var ethers;
 function generate(){
     const wallet = ethers.Wallet.createRandom();
-    // console.log('address:', wallet.address);
-    // console.log('mnemonic:', wallet.mnemonic.phrase);
-    // console.log('privateKey:', wallet.privateKey);
     var address = wallet.address;
     var mnemonic = wallet.mnemonic.phrase;
     var private_key = wallet.privateKey;
