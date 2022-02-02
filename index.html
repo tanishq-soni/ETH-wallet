@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ethereum Wallet Generator | A Project by Tanishq">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.4/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ethereum Wallet Generator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h2>Ethereum Wallet Generator</h2>
+        </div>
+        <div class="generate">
+            <p>Address</p>
+            <input id="address" type="text" placeholder="0x0...">
+            <p>Private Key</p>
+            <input id="private_key" type="text" placeholder="0x0...">
+            <p>Mnemonic Phrase</p>
+            <input id="mnemonic" type="text" placeholder="abcd efgh...">
+            <button class="generate_btn" onclick="generate()">Generate</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>There is no database, no server-side code. Everything vanishes when you close your tab ~ Tanishq</p>
+    </div>
+</body>
+</html>
