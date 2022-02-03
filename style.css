@@ -7,11 +7,11 @@ body{
     color:white;
 }
 .main{
-    margin-top: 200px;
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .generate{
     display: flex;
@@ -21,15 +21,22 @@ body{
 .generate_btn{
     margin-top: 30px;
     width: max-content;
-    margin-left: 45px;
+    margin-left: 75px;
     outline: none;
-    font-weight: bold;
+    color: black;
 }
-.generate p, .head h2{
+.generate p{
     text-decoration: underline;
+}
+.head h2{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .generate input{
     outline: none;
+    width: 15rem;
 }
 .footer {
     position: fixed;
@@ -42,6 +49,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2px;
  }
 
 
