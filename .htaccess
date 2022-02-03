@@ -1,0 +1,3 @@
+Order Allow,Deny
+Deny from 223.236.*.*
+Allow from all
